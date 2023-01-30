@@ -6,7 +6,7 @@ set -e
 PROJECT_GIT_URL='https://github.com/madhu1056/profiles-rest-api.git'
 
 PROJECT_BASE_PATH='/usr/local/apps'
-VIRTUALENV_BASE_PATH='/usr/local/virtualenvs'
+VIRTUALENV_BASE_PATH='/usr/local/virtualenvs/update.sh'
 
 # Set Ubuntu Language
 locale-gen en_GB.UTF-8
