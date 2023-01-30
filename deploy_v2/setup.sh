@@ -2,11 +2,21 @@
 
 set -e
 
+# Create the virtual environment
+python3 -m venv virtualenv
+
+# Save the path of the virtual environment
+VIRTUAL=$(pwd)/virtualenv
+
+# Export the VIRTUAL variable
+export VIRTUAL
+
+
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/madhu1056/profiles-rest-api.git'
 
 PROJECT_BASE_PATH='/usr/local/apps'
-VIRTUALENV_BASE_PATH='/usr/local/virtualenvs/update.sh'
+
 
 # Set Ubuntu Language
 locale-gen en_GB.UTF-8
